@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/photography-portfolio/static/css/main.d1df314a.css",
-    "main.js": "/photography-portfolio/static/js/main.9656cb71.js",
+    "main.css": "/photography-portfolio/static/css/main.350b0e34.css",
+    "main.js": "/photography-portfolio/static/js/main.2b8af464.js",
     "static/media/4.jpg": "/photography-portfolio/static/media/4.984e6b664757e2c637e7.jpg",
     "static/media/17.jpg": "/photography-portfolio/static/media/17.7b0b9c2876b0b766ee32.jpg",
     "static/media/backgroundImage.jpg": "/photography-portfolio/static/media/backgroundImage.18eabd91a7a248d6a5fd.jpg",
-    "static/media/1.jpg": "/photography-portfolio/static/media/1.e55640673a223f70173a.jpg",
+    "static/media/26.jpg": "/photography-portfolio/static/media/26.740f2fbed028c520e72b.jpg",
     "static/media/18.jpg": "/photography-portfolio/static/media/18.e9389aa2298756f0f3a1.jpg",
+    "static/media/29.jpg": "/photography-portfolio/static/media/29.079b1e1bb82854969d9e.jpg",
+    "static/media/34.jpg": "/photography-portfolio/static/media/34.89067a55923248b5f290.jpg",
+    "static/media/39.jpg": "/photography-portfolio/static/media/39.8eaea6cf8ad654db8845.jpg",
+    "static/media/30.jpg": "/photography-portfolio/static/media/30.4f452d42aa13efc10922.jpg",
     "static/media/16.jpg": "/photography-portfolio/static/media/16.5079c5b51ad309fc9b0f.jpg",
     "static/media/19.jpg": "/photography-portfolio/static/media/19.f70617a243fa0865b67b.jpg",
     "static/media/3.jpg": "/photography-portfolio/static/media/3.7b831cc17d08b9f024dc.jpg",
+    "static/media/35.jpg": "/photography-portfolio/static/media/35.16e73e4135bf9b751eab.jpg",
+    "static/media/33.jpg": "/photography-portfolio/static/media/33.471a9d24befa80a8420c.jpg",
+    "static/media/32.jpg": "/photography-portfolio/static/media/32.a78e734ccd8f1fe0c8e2.jpg",
     "static/media/20.jpg": "/photography-portfolio/static/media/20.3f6731abf4977d8db482.jpg",
+    "static/media/28.jpg": "/photography-portfolio/static/media/28.6a3846d0f737c47abd5b.jpg",
     "static/media/21.jpg": "/photography-portfolio/static/media/21.03871c81cafd7c515150.jpg",
     "static/media/24.jpg": "/photography-portfolio/static/media/24.962bda127e810cf73a5f.jpg",
     "static/media/25.jpg": "/photography-portfolio/static/media/25.6968dc19245f9037cb13.jpg",
@@ -23,14 +31,17 @@
     "static/media/12.jpg": "/photography-portfolio/static/media/12.18b10e961cdcf082f5bb.jpg",
     "static/media/13.jpg": "/photography-portfolio/static/media/13.3df5ca795f4b89312fad.jpg",
     "static/media/7.jpg": "/photography-portfolio/static/media/7.32edbcce25e4be85f422.jpg",
-    "static/media/8.jpg": "/photography-portfolio/static/media/8.32edbcce25e4be85f422.jpg",
+    "static/media/36.jpg": "/photography-portfolio/static/media/36.1c6bcfd09e4a80a1f42f.jpg",
+    "static/media/31.jpg": "/photography-portfolio/static/media/31.ffcc4efbe21fee380d96.jpg",
     "static/media/10.jpg": "/photography-portfolio/static/media/10.a7d3e1b5a3e20ce18250.jpg",
+    "static/media/38.jpg": "/photography-portfolio/static/media/38.947e8ee1b36ef538c469.jpg",
+    "static/media/37.jpg": "/photography-portfolio/static/media/37.26f69a2860897b9289cc.jpg",
     "index.html": "/photography-portfolio/index.html",
-    "main.d1df314a.css.map": "/photography-portfolio/static/css/main.d1df314a.css.map",
-    "main.9656cb71.js.map": "/photography-portfolio/static/js/main.9656cb71.js.map"
+    "main.350b0e34.css.map": "/photography-portfolio/static/css/main.350b0e34.css.map",
+    "main.2b8af464.js.map": "/photography-portfolio/static/js/main.2b8af464.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1df314a.css",
-    "static/js/main.9656cb71.js"
+    "static/css/main.350b0e34.css",
+    "static/js/main.2b8af464.js"
   ]
 }
