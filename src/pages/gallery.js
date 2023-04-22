@@ -6,6 +6,8 @@ import Row from "react-bootstrap/Row";
 import CardComponent from "./components/Card";
 import MediaQuery from "react-responsive";
 
+import Carousel from "react-bootstrap/Carousel";
+
 
 
 import "../index.css";
@@ -56,7 +58,7 @@ const mobileContainerStyle = {
   flexDirection: "column",
   textAlign: "center",
   width: "100vw",
-  height: "80%",
+  height: "100vh",
 }
 
 const rowStyle = {
@@ -164,7 +166,12 @@ const gallery = [
 ]
 
 
-
+const imageStyle = {
+  maxWidth: "600px",
+  maxHeight: "300px",
+  width: "auto",
+  height: "auto",
+}
 
 
 
@@ -183,7 +190,7 @@ export default function Gallery() {
           
       {gallery.map((images, i) => {
         return (
-         <CardComponent key={i}  image={images.image} />
+         <CardComponent key={i} image={images.image}  />
         );
       })}
       
@@ -192,24 +199,30 @@ export default function Gallery() {
 
       </MediaQuery>
 
+      
       <MediaQuery query="(max-width: 1224px)">
 
-<Container fluid style={mobileContainerStyle} className="headline-faster">
-      <Row style={mobileRowStyle}>
+      <Container fluid style={mobileContainerStyle} className="headline-faster" >
       
-      </Row>
- 
-      <Row style={mobileRowStyle}>
-          
-      {/* {projects.map((project, i) => {
+
+      
+      <Carousel>
+      {gallery.map((images, i) => {
         return (
-         <CardComponent key={i} name={project.name} description={project.description} image={project.image} github_link={project.github_link} deployed_link={project.deployed_link} />
+         
+          <Carousel.Item>
+          <img style={imageStyle} key={i} src={images.image}  />
+          </Carousel.Item>
+         
         );
-      })} */}
-      
-      </Row>
+      })}
+       </Carousel>
+    
       </Container>
+
       </MediaQuery>
+
+     
     </>
   );
 }

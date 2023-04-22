@@ -19,12 +19,14 @@ export default function CardComponent(props) {
   };
 
   const mobileCardStyle = {
-    width: '35rem',
-    margin: '1rem',
-    padding: '1rem',
+    width: 'fit-content',
+    background: 'none',
+    border: 'none',
     display: 'inline-block',
+    margin: '5px',
     height: 'fit-content',
-    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
+    boxShadow: '0 8px 16px 0 rgb(0, 0, 0, 0), 0 10px 26px 0 rgba(0, 0, 0, 0)',
+    borderRadius: '20px',
   }
 
 
@@ -35,6 +37,9 @@ export default function CardComponent(props) {
     height: 'auto',
     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
   }
+
+  
+
   
 
   return (
@@ -47,27 +52,14 @@ export default function CardComponent(props) {
     </Card>
     </MediaQuery>
 
-    <MediaQuery query="(max-device-width: 1224px)">
+   
 
-    <Card style = {mobileCardStyle} class = "shadow">
-      <Card.Img  variant="top" src={props.image} />
+    
+
       
-    </Card>
-
-      </MediaQuery>
       </>
         
 
-    // <div className="container">
-    //   <div className="card" style={cardStyle}>
-    //     <div className="card-body">
-    //     <h5 className="card-title">{props.name}</h5>
-    //     <img src={props.image} alt=""></img>
-    //       <p className="card-text">{props.description}</p>
-    //       <p className="card-text">{props.github_link}</p>
-          
-    //     </div>
-    //   </div>
-    // </div>
+   
   );
 }
