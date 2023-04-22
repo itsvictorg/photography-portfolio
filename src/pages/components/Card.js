@@ -2,6 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
+import ImageModal from './ImageModal';
 import MediaQuery from 'react-responsive';
 
 export default function CardComponent(props) {
@@ -38,14 +39,23 @@ export default function CardComponent(props) {
     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
   }
 
+  function imageHandler(event) {
+   
+
+  return(
+    <ImageModal image={event.target} />
+  )
   
+    
+    
+  }
 
   
 
   return (
     <>
     <MediaQuery query="(min-width: 769px)">
-    <Card style = {cardStyle} className='image'>
+    <Card style = {cardStyle} className='image' onClick={imageHandler}>
       <Card.Img variant="top" src={props.image} style={imageStyle} />
    
       
