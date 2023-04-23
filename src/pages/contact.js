@@ -14,12 +14,12 @@ export default function Contact() {
     const containerStyle = {
         
         display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
+       
         flexDirection: "column",
         textAlign: "center",
         height: "100vh",
         width: "100vh",
+        marginTop: "8px",
     }
 
     const mobileContainerStyle = {

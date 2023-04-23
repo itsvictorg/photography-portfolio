@@ -13,12 +13,12 @@ import "../index.css";
 
 const containerStyle = {
   display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
+  
   flexDirection: "column",
   textAlign: "center",
   height: "100vh",
   width: "65vw",
+  marginTop: "40px",
 };
 
 const fontStyle = {
